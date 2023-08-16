@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Manrope', sans-serif;
+}
+/* .wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+} */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: white;
+}
+.navigationHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 108px;
+}
+.logo{
+    width: 169.846px;
+    height: 23px;
+}
+.navBar li{
+    display: flex;
+    text-align: center;
+    align-items: baseline;
+}
+.navBar .active a{
+    color: #065666;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navBar li a{
+    color: #636363;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+} 
+
+.greenButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #6FC247;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.whiteButton{
+    border-radius: 16px;
+    border-color: #6FC247;
+    background: #FFF;
+    display: flex;
+    padding: 24px 40px;
+    align-items: flex-end;
+    gap: 16px;
+    color: #6FC247;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.container{
+    padding: 80px 104px;
+}
+.hero-banner{
+    text-align: center;
+
+}
+.hero-banner h1{
+    /* width: 971px; */
+    font-size: 64px;
+    font-weight: 800px;
+    line-height: 87px;
+    letter-spacing: 0em;
+    height: 174px;
+    color: #373737;
+
+    
+}
+.hero-banner p{
+    /* width: 971px; */
+    height: 129px;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 43px;
+    letter-spacing: 0em;
+    color: #373737;
+
+
+}
+.hero-banner .buttons{
+    display: flex;
+    justify-content: center;
+}
+.image-4{
+    width: 100%;
+}
+.section-2 .container h2{
+    text-align: center;
+    height: 44px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: #373737;
+
+}
+.section-2 .container p{
+    text-align: center;
+    height: 60px;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    margin-top: 2%;
+    color: #373737;
+
+}
+.image-grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+    align-items: baseline;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+.section-3{
+    background-color: black;
+    color: white;
+}
+.section-3 .container h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section-3 .container p{
+    text-align: center;
+    height: 60px;
+}
+.last-code{
+    display: flex;
+    margin: 25px;
+}
+
+.section-3 .container .last-code div p{
+    text-align: left;
+    width:  360px;
+}
+.section-3 .container .last-code div h3{
+    margin-bottom: 25px;
+}
+.section-4 .gear5{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+span{
+    display: flex;
+}
+.section-4 span .last-section{
+    margin-right: 20px;
+}
+span .last-section div{
+    width: 413px;
+    height: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font: size 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 200px
+}
